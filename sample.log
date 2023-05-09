@@ -1,0 +1,8 @@
+[2022-05-09 10:23:56] INFO: User login successful (username: john_doe, ip: 192.168.1.10, response code: 200)
+[2022-05-09 10:25:01] WARNING: Invalid password for user (username: jane_doe, ip: 192.168.1.11, response code: 401)
+[2022-05-09 10:26:19] ERROR: Server error occurred (ip: 192.168.1.12, response code: 500)
+[2022-05-09 10:27:30] ERROR: Page not found (ip: 192.168.1.13, response code: 404)
+[2022-05-09 10:28:44] ERROR: Access denied (username: admin, ip: 192.168.1.14, response code: 403)
+[2022-05-09 10:30:12] INFO: User logout successful (username: john_doe, ip: 192.168.1.10, response code: 200)
+[2022-05-09 10:31:21] WARNING: Account locked (username: jane_doe, ip: 192.168.1.11, response code: 203)
+[2022-05-09 10:33:01] ERROR: Internal server error (ip: 192.168.1.12, response code: 500)
