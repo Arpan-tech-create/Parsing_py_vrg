@@ -13,6 +13,7 @@ df = pd.DataFrame(result, columns=['DateTime', 'Event', 'Username', 'IP', 'Respo
 
 print(df)
 
-sns.lineplot(data=df, x='DateTime', y='Response Code')
+sns.lineplot(data=df, y='DateTime', x='Response Code')
+plt.xticks(rotation=70)
 plt.show()
 
